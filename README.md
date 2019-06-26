@@ -22,6 +22,7 @@ e.g.
 
 The configuration needs to make use of the `restriction_file` feature of jekyll RDF.
 
+You should also use a sparql endpoint as data source as there is no reason in importing the data multiple times.
 
 ## Functionality
 
