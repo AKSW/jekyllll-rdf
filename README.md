@@ -2,21 +2,22 @@
 
 *Parallelizer for Jekyll RDF*
 
-TODO: Port this to Ruby ;-)
-TODO: Kill Child processes if this script is terminated.
+TODO:
+* Port this to Ruby ;-)
+* Kill Child processes if this script is terminated.
 
 ## Usage
 
 Start with:
 
 ```
-./jekyll-rdf-par.py <numberOfThreads> <destinationPath> <configFile>
+./jekyllll-rdf.py <numberOfThreads> <destinationPath> <configFile>
 ```
 
 e.g.
 
 ```
-./jekyll-rdf-par.py 4 _multisite _config.yml
+./jekyllll-rdf.py 4 _multisite _config.yml
 ```
 
 The configuration needs to make use of the `restriction_file` feature of jekyll RDF.
