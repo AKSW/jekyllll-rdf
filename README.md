@@ -27,7 +27,7 @@ You should also use a sparql endpoint as data source as there is no reason in im
 ## Functionality
 
 The script splits the list of resources in the `restriction_file` in `numberOfThreads` equal parts and creates a jekyll setup for each thread.
-The jekyll setups are executed in parallel and build to their individual destination rectories.
+The jekyll setups are executed in parallel and build to their individual destination directories.
 The resulting destination directories are collected (merged) into the specified `destinationPath` directory.
 The result in `destinationPath` should be equal to what a single threaded jekyll execution produces in `_site`.
 
